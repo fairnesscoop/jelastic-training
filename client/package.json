@@ -10,7 +10,7 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
 		"prestart": "npm ci;npm run build",
-		"start": "PORT=8080;node build",
+		"start": "PORT=8080 node build",
 		"preinstall": "echo 'install new version!'"
 	
 	},
